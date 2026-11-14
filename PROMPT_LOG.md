@@ -226,3 +226,19 @@
 - What improved: The source is ready for publication without local environment
   files or credentials. Production AI routes retain their existing restriction
   until hosted access controls are implemented; this deployment adds no features.
+
+## 2026-11-14 - Production deployment verified
+
+- Prompt used: Complete the requested GitHub/Vercel deployment and verify it.
+- What was wrong: Automatic repository linking required a separate GitHub Login
+  Connection in Vercel, and a CLI-based HTTP check did not yield status metadata.
+- What changed: Pushed the application and deployment ignore rules to the
+  requested repository, published directly with the authenticated Vercel CLI,
+  stored OPENAI_API_KEY as a sensitive Production/Preview secret without printing
+  it, and switched verification to direct HTTP checks of the public production
+  URL. Added docs/DEPLOYMENT.md with the result and existing restrictions.
+- What improved: https://bloomi-nine.vercel.app is READY. All three pages return
+  200; nine deployed JavaScript assets contain no configured credential. Both AI
+  endpoints return the expected production 403. Source deployment is 126f7ce.
+  No redesign or new features were introduced. Automatic GitHub deploys remain
+  unlinked, and live hosted AI remains disabled by the existing access policy.
