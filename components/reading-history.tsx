@@ -1,0 +1,7 @@
+"use client";
+import { useApp } from "./app-provider";
+export function ReadingHistory(){
+  const {student,sessions}=useApp();const entries=sessions[student.id]?.reading_records??[];
+  if(!entries.length)return null;
+  return <section className="panel observations"><p className="eyebrow">Reading session observations</p><h2>Words to revisit together</h2><p>Text comparisons for teacher review; no sound-level diagnosis.</p>{entries.slice().reverse().map((entry,i)=><article className="activity-record" key={`${entry.date}-${i}`}><div><strong>{entry.storyTitle}</strong><span className="pill">{entry.source} input</span></div><p className="fine">{new Date(entry.date).toLocaleString()} · {entry.status==="pattern_supported"?"Repeated target-word differences; cause unconfirmed":entry.status}</p><p>{entry.description}</p><p>{entry.strengths}</p><p><strong>Suggested next focus:</strong> {entry.suggestedFocus}</p><details><summary>Review word evidence ({entry.differences.length})</summary>{entry.differences.map((d,j)=><p className="evidence" key={j}>Story word: {d.expected||"(none)"}<br/>Transcript: {d.observed||"(omitted)"}<br/>{d.kind}</p>)}</details><p className="fine">{entry.source==="simulated"?"Synthetic demonstration only; no learner performance was observed.":"Typing, skipped text, and recognition errors can affect this comparison."}</p></article>)}<p className="fine">Stored only in this tab’s in-memory session_log. Refresh clears these entries; source profile JSON is unchanged.</p></section>;
+}

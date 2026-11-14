@@ -1,0 +1,313 @@
+{
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "display_label": "Fictional sample work",
+  "student_id": "mira",
+  "date": "2026-11-14",
+  "purpose": "Synthetic baseline test fixtures for transparent instructional hypotheses, not clinical assessment.",
+  "modes": {
+    "reading": "stretch",
+    "writing": "support",
+    "math": "stretch"
+  },
+  "collection_context": {
+    "reading": "Synthetic transcription of an isolated-word reading sample; five words, no real audio. This is a baseline probe, not a decodable story.",
+    "writing": "One synthetic independent typed draft before correction or outlining. Spelling probes below are indexed excerpts from that same draft. A fictional adult authorizes the baseline probe; ordinary support-mode dictation remains available. No handwriting, timing, or motor inference is supported.",
+    "math": "Two synthetic baseline problems before modeled instruction, with adult authorization; practice modes do not imply that tools were used in this baseline."
+  },
+  "reading_sample": {
+    "id": "reading-sample",
+    "format": "isolated_word_list",
+    "intended_words": [
+      "seed",
+      "feet",
+      "deep",
+      "green",
+      "sleep"
+    ],
+    "spoken_words": [
+      "said",
+      "fit",
+      "dip",
+      "grin",
+      "slip"
+    ],
+    "misreading_ids": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5"
+    ]
+  },
+  "writing_sample": {
+    "id": "writing-sample",
+    "prompt": "Write about a crab you saw.",
+    "student_response": "I see a sed in the sand. My fet go dep. A gren crab can slep in a shell. I saw the crab first.",
+    "intended_text_for_evaluator": "I see a seed in the sand. My feet go deep. A green crab can sleep in a shell. I saw the crab first.",
+    "authorship": "Synthetic student-authored draft; evaluator reference is not an AI replacement to show the student.",
+    "spelling_error_ids": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5"
+    ],
+    "organizational_observations": [
+      "Adds the opening event at the end: I saw the crab first comes after the description."
+    ],
+    "strengths": [
+      "Uses a concrete sea-animal setting",
+      "Expresses several complete ideas"
+    ],
+    "assessment_limits": "Text alone cannot establish dysgraphia or handwriting characteristics."
+  },
+  "activities": {
+    "reading": [
+      {
+        "id": "r1",
+        "prompt": "Read: seed",
+        "expected_answer": "seed",
+        "student_response": "said",
+        "answer_type": "exact",
+        "observation": "Intended seed; synthetic spoken response said."
+      },
+      {
+        "id": "r2",
+        "prompt": "Read: feet",
+        "expected_answer": "feet",
+        "student_response": "fit",
+        "answer_type": "exact",
+        "observation": "Intended feet; synthetic spoken response fit."
+      },
+      {
+        "id": "r3",
+        "prompt": "Read: deep",
+        "expected_answer": "deep",
+        "student_response": "dip",
+        "answer_type": "exact",
+        "observation": "Intended deep; synthetic spoken response dip."
+      },
+      {
+        "id": "r4",
+        "prompt": "Read: green",
+        "expected_answer": "green",
+        "student_response": "grin",
+        "answer_type": "exact",
+        "observation": "Intended green; synthetic spoken response grin."
+      },
+      {
+        "id": "r5",
+        "prompt": "Read: sleep",
+        "expected_answer": "sleep",
+        "student_response": "slip",
+        "answer_type": "exact",
+        "observation": "Intended sleep; synthetic spoken response slip."
+      }
+    ],
+    "writing": [
+      {
+        "id": "w1",
+        "prompt": "Write: seed",
+        "expected_answer": "seed",
+        "student_response": "sed",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses sed for seed."
+      },
+      {
+        "id": "w2",
+        "prompt": "Write: feet",
+        "expected_answer": "feet",
+        "student_response": "fet",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses fet for feet."
+      },
+      {
+        "id": "w3",
+        "prompt": "Write: deep",
+        "expected_answer": "deep",
+        "student_response": "dep",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses dep for deep."
+      },
+      {
+        "id": "w4",
+        "prompt": "Write: green",
+        "expected_answer": "green",
+        "student_response": "gren",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses gren for green."
+      },
+      {
+        "id": "w5",
+        "prompt": "Write: sleep",
+        "expected_answer": "sleep",
+        "student_response": "slep",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses slep for sleep."
+      }
+    ],
+    "math": [
+      {
+        "id": "m1",
+        "prompt": "A crab has 12 shells. It gives away 3. How many are left?",
+        "expression": "12 - 3",
+        "expected_answer": 9,
+        "student_response": 10,
+        "student_reasoning": [
+          "Counts 12, 11, 10 as three counts"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "mira-math-1"
+      },
+      {
+        "id": "m2",
+        "prompt": "Find the missing number: 4 + 3 = __ + 2.",
+        "expression": "4 + 3 = __ + 2",
+        "expected_answer": 5,
+        "student_response": 7,
+        "student_reasoning": [
+          "Adds 4 and 3 to get 7",
+          "Writes 7 in the blank without checking 7 + 2"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "mira-math-2"
+      }
+    ]
+  },
+  "expected_analysis": [
+    {
+      "subject": "reading",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "The ee vowel sound changes in five words.",
+      "evidence_ids": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "suggested_focus": "Practice hearing and reading ee in seed and feet before blending new ee words.",
+      "strengths": [
+        "Accurately read ship in a synthetic check"
+      ]
+    },
+    {
+      "subject": "writing",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "One e is omitted from ee in five words.",
+      "evidence_ids": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5"
+      ],
+      "suggested_focus": "Use oral segmentation and a word model for the same spelling feature, then let the student revise their own draft.",
+      "strengths": [
+        "Explains a clear sequence aloud",
+        "Uses concrete details about sea animals"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "Includes the starting number as the first count when counting back.",
+      "evidence_ids": [
+        "m1"
+      ],
+      "suggested_focus": "Subtracts within 20 by counting back",
+      "strengths": [
+        "Used counters to solve 8 + 5 = 13"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "Treats the equals sign as a cue to put an answer immediately after it rather than matching both sides.",
+      "evidence_ids": [
+        "m2"
+      ],
+      "suggested_focus": "Use counters to make both sides of an equation equal.",
+      "strengths": [
+        "Used counters to solve 8 + 5 = 13"
+      ]
+    }
+  ],
+  "proposed_profile_update": {
+    "review_status": "pending_teacher_review",
+    "apply_automatically": false,
+    "observations": [
+      {
+        "subject": "reading",
+        "description": "The ee vowel sound changes in five words.",
+        "evidence_ids": [
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "writing",
+        "description": "One e is omitted from ee in five words.",
+        "evidence_ids": [
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "math",
+        "description": "Includes the starting number as the first count when counting back.",
+        "evidence_ids": [
+          "m1"
+        ],
+        "status": "seen once, watching"
+      },
+      {
+        "subject": "math",
+        "description": "Treats the equals sign as a cue to put an answer immediately after it rather than matching both sides.",
+        "evidence_ids": [
+          "m2"
+        ],
+        "status": "seen once, watching"
+      }
+    ],
+    "policy": "Only the analysis step may append dated session_log entries. Teacher-reviewed or validated observations inform later practice; diagnoses and IEP settings remain unchanged."
+  },
+  "next_session": {
+    "reading_focus": "Practice hearing and reading ee in seed and feet before blending new ee words.",
+    "writing_focus": "Use the student's own spoken ideas to build an outline; the student writes and revises the final sentences.",
+    "math_focus": [
+      {
+        "evidence_id": "m1",
+        "practice": "Subtracts within 20 by counting back"
+      },
+      {
+        "evidence_id": "m2",
+        "practice": "Use counters to make both sides of an equation equal."
+      }
+    ],
+    "adoption": "Proposed practice for teacher review; no automatic accommodation removal."
+  },
+  "adaptation_demo": {
+    "shared_objective": "Explain how to find a missing quantity after taking some objects away.",
+    "instruction_format": "One spoken direction with shell counters",
+    "difficulty": "Subtract within 20",
+    "scaffolding": "Mark the starting point and count each backward move",
+    "feedback": "Name careful counting before modeling one backward move",
+    "visual_or_auditory_support": "Number line with shell markers and optional spoken directions",
+    "mode": "stretch"
+  },
+  "session_log_policy": "Profile logs remain empty until the analysis step records dated, reviewable observations."
+}

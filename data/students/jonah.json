@@ -1,0 +1,205 @@
+{
+  "id": "jonah",
+  "name": "Jonah",
+  "grade": 4,
+  "interests": [
+    "designing robot arms",
+    "building marble runs",
+    "space rover missions",
+    "drawing comic panels"
+  ],
+  "diagnoses": [
+    {
+      "name": "dysgraphia",
+      "classroom_description": "Fictional background: Jonah explains detailed ideas orally but handwriting and spacing make written responses slow and tiring."
+    },
+    {
+      "name": "dyslexia",
+      "classroom_description": "Fictional background: Jonah sometimes omits a sound in an initial consonant blend when reading unfamiliar words."
+    }
+  ],
+  "reading": {
+    "patterns_mastered": [
+      "short vowels",
+      "consonant digraphs",
+      "silent e",
+      "ee and oa vowel teams"
+    ],
+    "patterns_in_progress": [
+      "initial blends st and sl"
+    ],
+    "misreadings": [
+      {
+        "word": "stop",
+        "student_says": "top"
+      },
+      {
+        "word": "sled",
+        "student_says": "sed"
+      },
+      {
+        "word": "step",
+        "student_says": "tep"
+      },
+      {
+        "word": "slip",
+        "student_says": "sip"
+      },
+      {
+        "word": "stem",
+        "student_says": "tem"
+      }
+    ]
+  },
+  "writing": {
+    "strengths": [
+      "Plans a logical sequence aloud",
+      "Uses precise science vocabulary in dictation"
+    ],
+    "difficulties": [
+      "Runs words together: the robot becomes therobot",
+      "Omits blend sounds: stop becomes top",
+      "Produces a shorter handwritten response than an oral response to the same task",
+      "Places the project goal and sequence markers out of order in an independent draft."
+    ],
+    "misspellings": [
+      {
+        "word": "stop",
+        "student_writes": "top"
+      },
+      {
+        "word": "sled",
+        "student_writes": "sed"
+      },
+      {
+        "word": "step",
+        "student_writes": "tep"
+      },
+      {
+        "word": "slip",
+        "student_writes": "sip"
+      },
+      {
+        "word": "stem",
+        "student_writes": "tem"
+      }
+    ],
+    "organizational_challenges": [
+      "States the project goal after describing robot actions",
+      "Places First it goes up a step after the later events"
+    ]
+  },
+  "math": {
+    "skills_mastered": [
+      "Adds and subtracts two-digit numbers with regrouping",
+      "Counts objects in a provided equal-group drawing"
+    ],
+    "skills_in_progress": [
+      "Multiplication facts for 6 and 7",
+      "Distinguishes group count from group size and selects multiplication"
+    ],
+    "misconceptions": [
+      {
+        "description": "One response has one group fewer than requested; more observations are needed.",
+        "worked_example": {
+          "problem": "6 x 4",
+          "student_steps": [
+            "Draws three groups of six",
+            "Counts 18 objects"
+          ],
+          "student_answer": 18,
+          "expected_answer": 24
+        },
+        "id": "jonah-math-1",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      },
+      {
+        "description": "Adds group size to group count instead of multiplying in one example.",
+        "worked_example": {
+          "problem": "7 x 3",
+          "student_steps": [
+            "Says seven and three make ten",
+            "Calculates 7 + 3 instead of three groups of seven"
+          ],
+          "student_answer": 10,
+          "expected_answer": 21
+        },
+        "id": "jonah-math-2",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      }
+    ]
+  },
+  "accommodations": [
+    "Offer dictation for extended responses",
+    "Provide a word-spacing guide",
+    "Allow oral explanations with diagrams",
+    "Offer hand-rest breaks on request"
+  ],
+  "support_or_stretch": {
+    "reading": "stretch",
+    "writing": "support",
+    "math": "stretch"
+  },
+  "strengths": [
+    "Spatial reasoning with models",
+    "Creative engineering ideas",
+    "Explains why a design needs revision"
+  ],
+  "motivators": [
+    "Explaining a robot design",
+    "Choosing between drawing and dictating"
+  ],
+  "frustration_triggers": [
+    "Copying long passages",
+    "Having handwriting neatness treated as understanding"
+  ],
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "background_note": "Entirely invented demonstration data; diagnoses are fictional supplied background, not inferred from sample work.",
+  "session_log": [],
+  "sample_work_file": "../sample-work/jonah.json",
+  "display_label": "Fictional sample student",
+  "preferred_methods": {
+    "explanation": [
+      "See a labeled model before hearing the steps",
+      "Rehearse a sequence aloud"
+    ],
+    "communication": [
+      "Dictate ideas into notes",
+      "Explain a design with a diagram"
+    ]
+  },
+  "iep_supports": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "accommodations": [
+      "Allow speech-to-text for composition when transcription is not assessed",
+      "Reduce copying and offer a spacing guide",
+      "Offer hand-rest breaks and untimed responses"
+    ],
+    "instructional_support_requirements": [
+      "Segment both consonants in st and sl",
+      "Interview for student ideas, then let the student order notes before writing"
+    ],
+    "authority": "Fictional teacher or IEP team determines accommodations and instructional modes; the AI cannot change them."
+  },
+  "mode_policy": {
+    "controlled_by": "adult",
+    "preserve_accommodations": true,
+    "setting_context": "Subject defaults for practice; any unassisted baseline probe is separately adult-authorized and is not a student-controlled mode change."
+  },
+  "learning_progress": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "status": "Synthetic baseline; no measured longitudinal outcome is claimed.",
+    "mastery_evidence": [
+      "Accurately read boat in a synthetic check",
+      "Regrouped to solve 43 - 18 = 25"
+    ],
+    "next_review": "Teacher reviews baseline samples before adopting analysis or changing future instruction."
+  }
+}

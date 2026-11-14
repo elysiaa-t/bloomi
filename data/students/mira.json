@@ -1,0 +1,195 @@
+{
+  "id": "mira",
+  "name": "Mira",
+  "grade": 2,
+  "interests": [
+    "tide-pool crabs",
+    "building sand forts",
+    "drawing sea creatures"
+  ],
+  "diagnoses": [
+    {
+      "name": "dyslexia",
+      "classroom_description": "Fictional background: Mira needs extra practice connecting vowel teams to sounds while following spoken stories well."
+    }
+  ],
+  "reading": {
+    "patterns_mastered": [
+      "short vowels in CVC words",
+      "consonant digraphs sh and ch",
+      "final consonant blends"
+    ],
+    "patterns_in_progress": [
+      "ee representing long e"
+    ],
+    "misreadings": [
+      {
+        "word": "seed",
+        "student_says": "said"
+      },
+      {
+        "word": "feet",
+        "student_says": "fit"
+      },
+      {
+        "word": "deep",
+        "student_says": "dip"
+      },
+      {
+        "word": "green",
+        "student_says": "grin"
+      },
+      {
+        "word": "sleep",
+        "student_says": "slip"
+      }
+    ]
+  },
+  "writing": {
+    "strengths": [
+      "Explains a clear sequence aloud",
+      "Uses concrete details about sea animals"
+    ],
+    "difficulties": [
+      "Represents long e with one letter: seed becomes sed and feet becomes fet",
+      "Places the opening event at the end of a short draft."
+    ],
+    "misspellings": [
+      {
+        "word": "seed",
+        "student_writes": "sed"
+      },
+      {
+        "word": "feet",
+        "student_writes": "fet"
+      },
+      {
+        "word": "deep",
+        "student_writes": "dep"
+      },
+      {
+        "word": "green",
+        "student_writes": "gren"
+      },
+      {
+        "word": "sleep",
+        "student_writes": "slep"
+      }
+    ],
+    "organizational_challenges": [
+      "Adds the opening event at the end: I saw the crab first comes after the description."
+    ]
+  },
+  "math": {
+    "skills_mastered": [
+      "Counts objects to 50",
+      "Adds within 20 using counters"
+    ],
+    "skills_in_progress": [
+      "Subtracts within 20 by counting back",
+      "Understands equality with a missing addend on the right"
+    ],
+    "misconceptions": [
+      {
+        "description": "Includes the starting number as the first count when counting back.",
+        "worked_example": {
+          "problem": "12 - 3",
+          "student_steps": [
+            "Counts 12, 11, 10 as three counts"
+          ],
+          "student_answer": 10,
+          "expected_answer": 9
+        },
+        "id": "mira-math-1",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      },
+      {
+        "description": "Treats the equals sign as a cue to put an answer immediately after it rather than matching both sides.",
+        "worked_example": {
+          "problem": "4 + 3 = __ + 2",
+          "student_steps": [
+            "Adds 4 and 3 to get 7",
+            "Writes 7 in the blank without checking 7 + 2"
+          ],
+          "student_answer": 7,
+          "expected_answer": 5
+        },
+        "id": "mira-math-2",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      }
+    ]
+  },
+  "accommodations": [
+    "Read instructions aloud on request",
+    "Offer counters for subtraction",
+    "Allow an oral explanation before writing",
+    "Show one short instruction at a time"
+  ],
+  "support_or_stretch": {
+    "reading": "stretch",
+    "writing": "support",
+    "math": "stretch"
+  },
+  "strengths": [
+    "Detailed oral storytelling",
+    "Careful observation of animal features",
+    "Persists with hands-on materials"
+  ],
+  "motivators": [
+    "Choosing an ocean topic",
+    "Drawing a scene after explaining it"
+  ],
+  "frustration_triggers": [
+    "Reading aloud without preparation",
+    "Several directions given together"
+  ],
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "background_note": "Entirely invented demonstration data; diagnoses are fictional supplied background, not inferred from sample work.",
+  "session_log": [],
+  "sample_work_file": "../sample-work/mira.json",
+  "display_label": "Fictional sample student",
+  "preferred_methods": {
+    "explanation": [
+      "Hear one short sentence, then see a picture",
+      "Move counters while explaining subtraction"
+    ],
+    "communication": [
+      "Speak an idea first",
+      "Draw a scene before writing"
+    ]
+  },
+  "iep_supports": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "accommodations": [
+      "Read task directions aloud without reading decoding-probe words for the student",
+      "Allow oral responses when spelling is not the objective",
+      "Provide untimed practice and counters"
+    ],
+    "instructional_support_requirements": [
+      "Teach ee explicitly alongside known short vowels",
+      "Use an oral first-then-last plan before independent writing"
+    ],
+    "authority": "Fictional teacher or IEP team determines accommodations and instructional modes; the AI cannot change them."
+  },
+  "mode_policy": {
+    "controlled_by": "adult",
+    "preserve_accommodations": true,
+    "setting_context": "Subject defaults for practice; any unassisted baseline probe is separately adult-authorized and is not a student-controlled mode change."
+  },
+  "learning_progress": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "status": "Synthetic baseline; no measured longitudinal outcome is claimed.",
+    "mastery_evidence": [
+      "Accurately read ship in a synthetic check",
+      "Used counters to solve 8 + 5 = 13"
+    ],
+    "next_review": "Teacher reviews baseline samples before adopting analysis or changing future instruction."
+  }
+}

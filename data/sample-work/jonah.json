@@ -1,0 +1,315 @@
+{
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "display_label": "Fictional sample work",
+  "student_id": "jonah",
+  "date": "2026-11-14",
+  "purpose": "Synthetic baseline test fixtures for transparent instructional hypotheses, not clinical assessment.",
+  "modes": {
+    "reading": "stretch",
+    "writing": "support",
+    "math": "stretch"
+  },
+  "collection_context": {
+    "reading": "Synthetic transcription of an isolated-word reading sample; five words, no real audio. This is a baseline probe, not a decodable story.",
+    "writing": "One synthetic independent typed draft before correction or outlining. Spelling probes below are indexed excerpts from that same draft. A fictional adult authorizes the baseline probe; ordinary support-mode dictation remains available. No handwriting, timing, or motor inference is supported.",
+    "math": "Two synthetic baseline problems before modeled instruction, with adult authorization; practice modes do not imply that tools were used in this baseline."
+  },
+  "reading_sample": {
+    "id": "reading-sample",
+    "format": "isolated_word_list",
+    "intended_words": [
+      "stop",
+      "sled",
+      "step",
+      "slip",
+      "stem"
+    ],
+    "spoken_words": [
+      "top",
+      "sed",
+      "tep",
+      "sip",
+      "tem"
+    ],
+    "misreading_ids": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5"
+    ]
+  },
+  "writing_sample": {
+    "id": "writing-sample",
+    "prompt": "Write how your robot works.",
+    "student_response": "therobot can top a sed. It grips the tem. I want to build a robot. The wheels sip on the ramp. First it goes up a tep.",
+    "intended_text_for_evaluator": "The robot can stop a sled. It grips the stem. I want to build a robot. The wheels slip on the ramp. First it goes up a step.",
+    "authorship": "Synthetic student-authored draft; evaluator reference is not an AI replacement to show the student.",
+    "spelling_error_ids": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5"
+    ],
+    "organizational_observations": [
+      "States the project goal after describing robot actions",
+      "Places First it goes up a step after the later events"
+    ],
+    "strengths": [
+      "Uses specific robot actions",
+      "Connects a robot with a ramp task"
+    ],
+    "assessment_limits": "Text alone cannot establish dysgraphia or handwriting characteristics."
+  },
+  "activities": {
+    "reading": [
+      {
+        "id": "r1",
+        "prompt": "Read: stop",
+        "expected_answer": "stop",
+        "student_response": "top",
+        "answer_type": "exact",
+        "observation": "Intended stop; synthetic spoken response top."
+      },
+      {
+        "id": "r2",
+        "prompt": "Read: sled",
+        "expected_answer": "sled",
+        "student_response": "sed",
+        "answer_type": "exact",
+        "observation": "Intended sled; synthetic spoken response sed."
+      },
+      {
+        "id": "r3",
+        "prompt": "Read: step",
+        "expected_answer": "step",
+        "student_response": "tep",
+        "answer_type": "exact",
+        "observation": "Intended step; synthetic spoken response tep."
+      },
+      {
+        "id": "r4",
+        "prompt": "Read: slip",
+        "expected_answer": "slip",
+        "student_response": "sip",
+        "answer_type": "exact",
+        "observation": "Intended slip; synthetic spoken response sip."
+      },
+      {
+        "id": "r5",
+        "prompt": "Read: stem",
+        "expected_answer": "stem",
+        "student_response": "tem",
+        "answer_type": "exact",
+        "observation": "Intended stem; synthetic spoken response tem."
+      }
+    ],
+    "writing": [
+      {
+        "id": "w1",
+        "prompt": "Write: stop",
+        "expected_answer": "stop",
+        "student_response": "top",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses top for stop."
+      },
+      {
+        "id": "w2",
+        "prompt": "Write: sled",
+        "expected_answer": "sled",
+        "student_response": "sed",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses sed for sled."
+      },
+      {
+        "id": "w3",
+        "prompt": "Write: step",
+        "expected_answer": "step",
+        "student_response": "tep",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses tep for step."
+      },
+      {
+        "id": "w4",
+        "prompt": "Write: slip",
+        "expected_answer": "slip",
+        "student_response": "sip",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses sip for slip."
+      },
+      {
+        "id": "w5",
+        "prompt": "Write: stem",
+        "expected_answer": "stem",
+        "student_response": "tem",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses tem for stem."
+      }
+    ],
+    "math": [
+      {
+        "id": "m1",
+        "prompt": "Four robot trays hold 6 bolts each. How many bolts are there?",
+        "expression": "6 x 4",
+        "expected_answer": 24,
+        "student_response": 18,
+        "student_reasoning": [
+          "Draws three groups of six",
+          "Counts 18 objects"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "jonah-math-1"
+      },
+      {
+        "id": "m2",
+        "prompt": "Three robot arms each need 7 pins. How many pins are needed?",
+        "expression": "7 x 3",
+        "expected_answer": 21,
+        "student_response": 10,
+        "student_reasoning": [
+          "Says seven and three make ten",
+          "Calculates 7 + 3 instead of three groups of seven"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "jonah-math-2"
+      }
+    ]
+  },
+  "expected_analysis": [
+    {
+      "subject": "reading",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "One consonant in st or sl is omitted in five words.",
+      "evidence_ids": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "suggested_focus": "Segment and blend both consonants in st and sl before reading new blend words.",
+      "strengths": [
+        "Accurately read boat in a synthetic check"
+      ]
+    },
+    {
+      "subject": "writing",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "One blend consonant is omitted in five words.",
+      "evidence_ids": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5"
+      ],
+      "suggested_focus": "Use oral segmentation and a word model for the same spelling feature, then let the student revise their own draft.",
+      "strengths": [
+        "Plans a logical sequence aloud",
+        "Uses precise science vocabulary in dictation"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "One response has one group fewer than requested; more observations are needed.",
+      "evidence_ids": [
+        "m1"
+      ],
+      "suggested_focus": "Multiplication facts for 6 and 7",
+      "strengths": [
+        "Regrouped to solve 43 - 18 = 25"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "Adds group size to group count instead of multiplying in one example.",
+      "evidence_ids": [
+        "m2"
+      ],
+      "suggested_focus": "Build three groups of seven and connect the model to multiplication.",
+      "strengths": [
+        "Regrouped to solve 43 - 18 = 25"
+      ]
+    }
+  ],
+  "proposed_profile_update": {
+    "review_status": "pending_teacher_review",
+    "apply_automatically": false,
+    "observations": [
+      {
+        "subject": "reading",
+        "description": "One consonant in st or sl is omitted in five words.",
+        "evidence_ids": [
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "writing",
+        "description": "One blend consonant is omitted in five words.",
+        "evidence_ids": [
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "math",
+        "description": "One response has one group fewer than requested; more observations are needed.",
+        "evidence_ids": [
+          "m1"
+        ],
+        "status": "seen once, watching"
+      },
+      {
+        "subject": "math",
+        "description": "Adds group size to group count instead of multiplying in one example.",
+        "evidence_ids": [
+          "m2"
+        ],
+        "status": "seen once, watching"
+      }
+    ],
+    "policy": "Only the analysis step may append dated session_log entries. Teacher-reviewed or validated observations inform later practice; diagnoses and IEP settings remain unchanged."
+  },
+  "next_session": {
+    "reading_focus": "Segment and blend both consonants in st and sl before reading new blend words.",
+    "writing_focus": "Use the student's own spoken ideas to build an outline; the student writes and revises the final sentences.",
+    "math_focus": [
+      {
+        "evidence_id": "m1",
+        "practice": "Multiplication facts for 6 and 7"
+      },
+      {
+        "evidence_id": "m2",
+        "practice": "Build three groups of seven and connect the model to multiplication."
+      }
+    ],
+    "adoption": "Proposed practice for teacher review; no automatic accommodation removal."
+  },
+  "adaptation_demo": {
+    "shared_objective": "Explain how to find a missing quantity after taking some objects away.",
+    "instruction_format": "A robot-parts model with a spoken explanation",
+    "difficulty": "Subtract two-digit numbers with regrouping",
+    "scaffolding": "Sketch tens and ones; explain one exchange aloud",
+    "feedback": "Recognize the model before asking the student to explain the exchange",
+    "visual_or_auditory_support": "Labeled base-ten drawing and dictated reasoning",
+    "mode": "stretch"
+  },
+  "session_log_policy": "Profile logs remain empty until the analysis step records dated, reviewable observations."
+}

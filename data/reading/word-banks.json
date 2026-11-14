@@ -1,0 +1,291 @@
+{
+  "mira": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "interestIndex": 1,
+    "targetPattern": "ee representing long e",
+    "targetWords": [
+      "feet",
+      "deep",
+      "see",
+      "bee",
+      "seed",
+      "keep",
+      "meet",
+      "feel"
+    ],
+    "sightWords": [
+      "the",
+      "i",
+      "a",
+      "my",
+      "is",
+      "it",
+      "with",
+      "me",
+      "has",
+      "in",
+      "at",
+      "up"
+    ],
+    "masteredWords": [
+      "big",
+      "can",
+      "cup",
+      "dig",
+      "get",
+      "hand",
+      "help",
+      "hot",
+      "hut",
+      "pat",
+      "pit",
+      "red",
+      "sand",
+      "set",
+      "sit",
+      "sun",
+      "wet"
+    ],
+    "wordBankNote": "Conservative demo word inventory for the fictional profile. Exact-token checking is a prototype safeguard, not a validated phonics assessment; teacher review remains required.",
+    "checkedStory": {
+      "title": "A Sand Hut",
+      "text": "The sun is hot. I sit in the sand. I dig a pit. My feet get wet. The pit is deep. I pat the sand with my hand. I can see a bee. It has a seed! I help it get up. I set the seed in a cup. I keep the cup in my hut. I meet the bee at the hut. I feel hot. It can sit in the hut with me. I get a red cup. It is big.",
+      "targetPattern": "ee representing long e",
+      "targetWords": [
+        "feet",
+        "deep",
+        "see",
+        "bee",
+        "seed",
+        "keep",
+        "meet",
+        "feel"
+      ],
+      "questions": [
+        "What did I put in the cup?",
+        "How did I help the bee?"
+      ]
+    },
+    "masteredPatterns": [
+      "short vowels in CVC words",
+      "consonant digraphs sh and ch",
+      "final consonant blends"
+    ],
+    "wordPatterns": {
+      "big": "short vowels in CVC words",
+      "can": "short vowels in CVC words",
+      "cup": "short vowels in CVC words",
+      "dig": "short vowels in CVC words",
+      "get": "short vowels in CVC words",
+      "hand": "final consonant blends",
+      "help": "final consonant blends",
+      "hot": "short vowels in CVC words",
+      "hut": "short vowels in CVC words",
+      "pat": "short vowels in CVC words",
+      "pit": "short vowels in CVC words",
+      "red": "short vowels in CVC words",
+      "sand": "final consonant blends",
+      "set": "short vowels in CVC words",
+      "sit": "short vowels in CVC words",
+      "sun": "short vowels in CVC words",
+      "wet": "short vowels in CVC words"
+    }
+  },
+  "jonah": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "interestIndex": 0,
+    "targetPattern": "initial blend st",
+    "targetWords": [
+      "step",
+      "stop",
+      "stick",
+      "stuck",
+      "stack",
+      "stem"
+    ],
+    "sightWords": [
+      "the",
+      "i",
+      "a",
+      "it",
+      "is",
+      "has",
+      "one",
+      "to",
+      "me",
+      "of",
+      "put",
+      "go"
+    ],
+    "masteredWords": [
+      "big",
+      "bot",
+      "box",
+      "can",
+      "cup",
+      "get",
+      "home",
+      "in",
+      "make",
+      "on",
+      "red",
+      "safe",
+      "set",
+      "take",
+      "tap",
+      "top"
+    ],
+    "wordBankNote": "Conservative demo word inventory for the fictional profile. Exact-token checking is a prototype safeguard, not a validated phonics assessment; teacher review remains required.",
+    "checkedStory": {
+      "title": "A Bot in a Box",
+      "text": "I make a bot. It is red. It has a big box on top. I set a cup in the box. The bot can take one step. I tap it. It can stop. A stick is stuck in the box! I get the stick. I make a stack. I set it on top. I put a stem in the cup. The bot can go. It can take the cup to me. I make a home in a box. The bot is safe in it.",
+      "targetPattern": "initial blend st",
+      "targetWords": [
+        "step",
+        "stop",
+        "stick",
+        "stuck",
+        "stack",
+        "stem"
+      ],
+      "questions": [
+        "What got stuck in the box?",
+        "What did the bot take to me?"
+      ]
+    },
+    "masteredPatterns": [
+      "short vowels",
+      "consonant digraphs",
+      "silent e",
+      "ee and oa vowel teams"
+    ],
+    "wordPatterns": {
+      "big": "short vowels",
+      "bot": "short vowels",
+      "box": "short vowels",
+      "can": "short vowels",
+      "cup": "short vowels",
+      "get": "short vowels",
+      "home": "silent e",
+      "in": "short vowels",
+      "make": "silent e",
+      "on": "short vowels",
+      "red": "short vowels",
+      "safe": "silent e",
+      "set": "short vowels",
+      "take": "silent e",
+      "tap": "short vowels",
+      "top": "short vowels"
+    }
+  },
+  "asha": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "interestIndex": 0,
+    "targetPattern": "r-controlled vowel ar",
+    "targetWords": [
+      "farm",
+      "cart",
+      "jar",
+      "dark",
+      "hard",
+      "bark",
+      "star",
+      "park"
+    ],
+    "sightWords": [
+      "the",
+      "i",
+      "a",
+      "it",
+      "is",
+      "has",
+      "we",
+      "to",
+      "with",
+      "us",
+      "have",
+      "put",
+      "by",
+      "and"
+    ],
+    "masteredWords": [
+      "add",
+      "can",
+      "cat",
+      "coat",
+      "grow",
+      "home",
+      "hop",
+      "hope",
+      "in",
+      "make",
+      "mat",
+      "mud",
+      "nap",
+      "on",
+      "pat",
+      "pot",
+      "see",
+      "seed",
+      "set",
+      "sit",
+      "take",
+      "top",
+      "will"
+    ],
+    "wordBankNote": "Conservative demo word inventory for the fictional profile. Exact-token checking is a prototype safeguard, not a validated phonics assessment; teacher review remains required.",
+    "checkedStory": {
+      "title": "A Farm in a Cart",
+      "text": "I make a farm in a cart. I put mud in a jar. The mud is dark. A seed has a hard coat. I set it in the mud. I add bark on top. I pat it. I make a star to put on the pot. We take it to the park. A cat can see us. It can hop in and nap! We sit on a mat by it. I hope the seed can grow. It will have a home with us.",
+      "targetPattern": "r-controlled vowel ar",
+      "targetWords": [
+        "farm",
+        "cart",
+        "jar",
+        "dark",
+        "hard",
+        "bark",
+        "star",
+        "park"
+      ],
+      "questions": [
+        "What did I put in the jar?",
+        "What did the cat do?"
+      ]
+    },
+    "masteredPatterns": [
+      "short and long vowels",
+      "common vowel teams",
+      "initial blends",
+      "two-syllable compound words"
+    ],
+    "wordPatterns": {
+      "add": "short and long vowels",
+      "can": "short and long vowels",
+      "cat": "short and long vowels",
+      "coat": "common vowel teams",
+      "grow": "common vowel teams",
+      "home": "short and long vowels",
+      "hop": "short and long vowels",
+      "hope": "short and long vowels",
+      "in": "short and long vowels",
+      "make": "short and long vowels",
+      "mat": "short and long vowels",
+      "mud": "short and long vowels",
+      "nap": "short and long vowels",
+      "on": "short and long vowels",
+      "pat": "short and long vowels",
+      "pot": "short and long vowels",
+      "see": "common vowel teams",
+      "seed": "common vowel teams",
+      "set": "short and long vowels",
+      "sit": "short and long vowels",
+      "take": "short and long vowels",
+      "top": "short and long vowels",
+      "will": "short and long vowels"
+    }
+  }
+}

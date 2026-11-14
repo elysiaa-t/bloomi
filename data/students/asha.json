@@ -1,0 +1,200 @@
+{
+  "id": "asha",
+  "name": "Asha",
+  "grade": 5,
+  "interests": [
+    "planning a balcony herb garden",
+    "designing bead bracelets",
+    "mapping bicycle routes"
+  ],
+  "diagnoses": [
+    {
+      "name": "dyscalculia",
+      "classroom_description": "Fictional background: Asha needs visual place-value support when comparing decimals and regrouping in subtraction."
+    }
+  ],
+  "reading": {
+    "patterns_mastered": [
+      "short and long vowels",
+      "common vowel teams",
+      "initial blends",
+      "two-syllable compound words"
+    ],
+    "patterns_in_progress": [
+      "r-controlled vowels ar and or"
+    ],
+    "misreadings": [
+      {
+        "word": "fork",
+        "student_says": "folk"
+      },
+      {
+        "word": "park",
+        "student_says": "pack"
+      },
+      {
+        "word": "farm",
+        "student_says": "fam"
+      },
+      {
+        "word": "corn",
+        "student_says": "con"
+      },
+      {
+        "word": "storm",
+        "student_says": "stom"
+      }
+    ]
+  },
+  "writing": {
+    "strengths": [
+      "Organizes explanations into steps",
+      "Adds reasons and descriptive details"
+    ],
+    "difficulties": [
+      "Omits r in some ar and or spellings: park becomes pak",
+      "Occasionally repeats a preparation detail at the end rather than grouping it with related steps."
+    ],
+    "misspellings": [
+      {
+        "word": "park",
+        "student_writes": "pak"
+      },
+      {
+        "word": "fork",
+        "student_writes": "fok"
+      },
+      {
+        "word": "farm",
+        "student_writes": "fam"
+      },
+      {
+        "word": "corn",
+        "student_writes": "con"
+      },
+      {
+        "word": "storm",
+        "student_writes": "stom"
+      }
+    ],
+    "organizational_challenges": [
+      "Repeats the soil-preparation step at the end instead of placing all preparation details together; most of the sequence remains understandable."
+    ]
+  },
+  "math": {
+    "skills_mastered": [
+      "Represents equal groups with objects",
+      "Adds whole numbers without regrouping",
+      "Reads whole numbers to 1000"
+    ],
+    "skills_in_progress": [
+      "Subtraction with regrouping",
+      "Decimal comparison using place value"
+    ],
+    "misconceptions": [
+      {
+        "description": "Subtracts the smaller digit from the larger in each column without regrouping.",
+        "worked_example": {
+          "problem": "52 - 28",
+          "student_steps": [
+            "Tens: 5 - 2 = 3",
+            "Ones: 8 - 2 = 6",
+            "Combines 3 tens and 6 ones"
+          ],
+          "student_answer": 36,
+          "expected_answer": 24
+        },
+        "id": "asha-math-1",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      },
+      {
+        "description": "Compares the digits after the decimal as whole numbers.",
+        "worked_example": {
+          "problem": "Which is greater: 0.45 or 0.8?",
+          "student_steps": [
+            "45 is greater than 8, so chooses 0.45"
+          ],
+          "student_answer": "0.45",
+          "expected_answer": "0.8"
+        },
+        "id": "asha-math-2",
+        "status": "seen once, watching",
+        "teacher_review_status": "pending",
+        "interpretation": "Candidate instructional hypothesis from one worked example, not an established pattern or a disability diagnosis."
+      }
+    ]
+  },
+  "accommodations": [
+    "Provide a place-value mat and base-ten blocks",
+    "Offer a calculator and worked first step in math support mode",
+    "Read mathematical symbols aloud",
+    "Allow drawn or spoken reasoning before number notation"
+  ],
+  "support_or_stretch": {
+    "reading": "stretch",
+    "writing": "stretch",
+    "math": "support"
+  },
+  "strengths": [
+    "Rich vocabulary in conversation",
+    "Organizes group projects",
+    "Notices visual design patterns"
+  ],
+  "motivators": [
+    "Planning a garden layout",
+    "Explaining a bracelet pattern"
+  ],
+  "frustration_triggers": [
+    "Timed fact recall",
+    "Crowded columns of numbers",
+    "Losing a place while copying calculations"
+  ],
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "background_note": "Entirely invented demonstration data; diagnoses are fictional supplied background, not inferred from sample work.",
+  "session_log": [],
+  "sample_work_file": "../sample-work/asha.json",
+  "display_label": "Fictional sample student",
+  "preferred_methods": {
+    "explanation": [
+      "See place-value columns and concrete blocks",
+      "Compare quantities visually before using symbols"
+    ],
+    "communication": [
+      "Explain reasoning aloud",
+      "Write a short explanation after drawing a model"
+    ]
+  },
+  "iep_supports": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "accommodations": [
+      "Provide a calculator when computation is not the instructional objective",
+      "Provide place-value mats and base-ten blocks",
+      "Allow spoken reasoning and read mathematical directions aloud",
+      "Do not remove accommodations automatically when performance improves"
+    ],
+    "instructional_support_requirements": [
+      "Teach decimal magnitude with aligned place-value models",
+      "Use an adult-selected stretch task for regrouping while retaining approved visual supports"
+    ],
+    "authority": "Fictional teacher or IEP team determines accommodations and instructional modes; the AI cannot change them."
+  },
+  "mode_policy": {
+    "controlled_by": "adult",
+    "preserve_accommodations": true,
+    "setting_context": "Subject defaults for practice; any unassisted baseline probe is separately adult-authorized and is not a student-controlled mode change."
+  },
+  "learning_progress": {
+    "fictional": true,
+    "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+    "status": "Synthetic baseline; no measured longitudinal outcome is claimed.",
+    "mastery_evidence": [
+      "Accurately read sunset in a synthetic check",
+      "Added 24 + 13 = 37"
+    ],
+    "next_review": "Teacher reviews baseline samples before adopting analysis or changing future instruction."
+  }
+}

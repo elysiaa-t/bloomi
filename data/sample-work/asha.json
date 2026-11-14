@@ -1,0 +1,314 @@
+{
+  "fictional": true,
+  "data_label": "FICTIONAL — SYNTHETIC DEMO DATA",
+  "display_label": "Fictional sample work",
+  "student_id": "asha",
+  "date": "2026-11-14",
+  "purpose": "Synthetic baseline test fixtures for transparent instructional hypotheses, not clinical assessment.",
+  "modes": {
+    "reading": "stretch",
+    "writing": "stretch",
+    "math": "support"
+  },
+  "collection_context": {
+    "reading": "Synthetic transcription of an isolated-word reading sample; five words, no real audio. This is a baseline probe, not a decodable story.",
+    "writing": "One synthetic independent typed draft before correction or outlining. Spelling probes below are indexed excerpts from that same draft. A fictional adult authorizes the baseline probe; ordinary support-mode dictation remains available. No handwriting, timing, or motor inference is supported.",
+    "math": "Two synthetic baseline problems before modeled instruction, with adult authorization; practice modes do not imply that tools were used in this baseline."
+  },
+  "reading_sample": {
+    "id": "reading-sample",
+    "format": "isolated_word_list",
+    "intended_words": [
+      "fork",
+      "park",
+      "farm",
+      "corn",
+      "storm"
+    ],
+    "spoken_words": [
+      "folk",
+      "pack",
+      "fam",
+      "con",
+      "stom"
+    ],
+    "misreading_ids": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5"
+    ]
+  },
+  "writing_sample": {
+    "id": "writing-sample",
+    "prompt": "Write about planting your garden.",
+    "student_response": "At the pak I used a fok to loosen soil near the fam plot. We planted con before the stom. The soil was soft and dark. The beds were ready. We had loosened the soil before planting.",
+    "intended_text_for_evaluator": "At the park I used a fork to loosen soil near the farm plot. We planted corn before the storm. The soil was soft and dark. The beds were ready. We had loosened the soil before planting.",
+    "authorship": "Synthetic student-authored draft; evaluator reference is not an AI replacement to show the student.",
+    "spelling_error_ids": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5"
+    ],
+    "organizational_observations": [
+      "Repeats the soil-preparation step at the end instead of placing all preparation details together; most of the sequence remains understandable."
+    ],
+    "strengths": [
+      "Connects planting with weather",
+      "Uses descriptive details"
+    ],
+    "assessment_limits": "Text alone cannot establish dysgraphia or handwriting characteristics."
+  },
+  "activities": {
+    "reading": [
+      {
+        "id": "r1",
+        "prompt": "Read: fork",
+        "expected_answer": "fork",
+        "student_response": "folk",
+        "answer_type": "exact",
+        "observation": "Intended fork; synthetic spoken response folk."
+      },
+      {
+        "id": "r2",
+        "prompt": "Read: park",
+        "expected_answer": "park",
+        "student_response": "pack",
+        "answer_type": "exact",
+        "observation": "Intended park; synthetic spoken response pack."
+      },
+      {
+        "id": "r3",
+        "prompt": "Read: farm",
+        "expected_answer": "farm",
+        "student_response": "fam",
+        "answer_type": "exact",
+        "observation": "Intended farm; synthetic spoken response fam."
+      },
+      {
+        "id": "r4",
+        "prompt": "Read: corn",
+        "expected_answer": "corn",
+        "student_response": "con",
+        "answer_type": "exact",
+        "observation": "Intended corn; synthetic spoken response con."
+      },
+      {
+        "id": "r5",
+        "prompt": "Read: storm",
+        "expected_answer": "storm",
+        "student_response": "stom",
+        "answer_type": "exact",
+        "observation": "Intended storm; synthetic spoken response stom."
+      }
+    ],
+    "writing": [
+      {
+        "id": "w1",
+        "prompt": "Write: park",
+        "expected_answer": "park",
+        "student_response": "pak",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses pak for park."
+      },
+      {
+        "id": "w2",
+        "prompt": "Write: fork",
+        "expected_answer": "fork",
+        "student_response": "fok",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses fok for fork."
+      },
+      {
+        "id": "w3",
+        "prompt": "Write: farm",
+        "expected_answer": "farm",
+        "student_response": "fam",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses fam for farm."
+      },
+      {
+        "id": "w4",
+        "prompt": "Write: corn",
+        "expected_answer": "corn",
+        "student_response": "con",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses con for corn."
+      },
+      {
+        "id": "w5",
+        "prompt": "Write: storm",
+        "expected_answer": "storm",
+        "student_response": "stom",
+        "answer_type": "exact",
+        "observation": "Synthetic independent draft uses stom for storm."
+      }
+    ],
+    "math": [
+      {
+        "id": "m1",
+        "prompt": "A garden has 52 seeds. Asha plants 28. How many seeds remain?",
+        "expression": "52 - 28",
+        "expected_answer": 24,
+        "student_response": 36,
+        "student_reasoning": [
+          "Tens: 5 - 2 = 3",
+          "Ones: 8 - 2 = 6",
+          "Combines 3 tens and 6 ones"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "asha-math-1"
+      },
+      {
+        "id": "m2",
+        "prompt": "Which garden label shows a greater length: 0.45 m or 0.8 m?",
+        "expression": "Which is greater: 0.45 or 0.8?",
+        "expected_answer": "0.8",
+        "student_response": "0.45",
+        "student_reasoning": [
+          "45 is greater than 8, so chooses 0.45"
+        ],
+        "answer_type": "exact",
+        "misconception_id": "asha-math-2"
+      }
+    ]
+  },
+  "expected_analysis": [
+    {
+      "subject": "reading",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "The r sound changes or is omitted in five ar or or words.",
+      "evidence_ids": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "suggested_focus": "Compare the sounds in ar and or, then blend park, farm, and fork.",
+      "strengths": [
+        "Accurately read sunset in a synthetic check"
+      ]
+    },
+    {
+      "subject": "writing",
+      "status": "pattern_supported",
+      "teacher_review_status": "pending",
+      "description": "The r is omitted from ar or or in five words.",
+      "evidence_ids": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5"
+      ],
+      "suggested_focus": "Use oral segmentation and a word model for the same spelling feature, then let the student revise their own draft.",
+      "strengths": [
+        "Organizes explanations into steps",
+        "Adds reasons and descriptive details"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "Subtracts the smaller digit from the larger in each column without regrouping.",
+      "evidence_ids": [
+        "m1"
+      ],
+      "suggested_focus": "Subtraction with regrouping",
+      "strengths": [
+        "Added 24 + 13 = 37"
+      ]
+    },
+    {
+      "subject": "math",
+      "status": "seen once, watching",
+      "teacher_review_status": "pending",
+      "description": "Compares the digits after the decimal as whole numbers.",
+      "evidence_ids": [
+        "m2"
+      ],
+      "suggested_focus": "Compare 0.45 and 0.80 on a hundred grid.",
+      "strengths": [
+        "Added 24 + 13 = 37"
+      ]
+    }
+  ],
+  "proposed_profile_update": {
+    "review_status": "pending_teacher_review",
+    "apply_automatically": false,
+    "observations": [
+      {
+        "subject": "reading",
+        "description": "The r sound changes or is omitted in five ar or or words.",
+        "evidence_ids": [
+          "r1",
+          "r2",
+          "r3",
+          "r4",
+          "r5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "writing",
+        "description": "The r is omitted from ar or or in five words.",
+        "evidence_ids": [
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5"
+        ],
+        "status": "pattern_supported"
+      },
+      {
+        "subject": "math",
+        "description": "Subtracts the smaller digit from the larger in each column without regrouping.",
+        "evidence_ids": [
+          "m1"
+        ],
+        "status": "seen once, watching"
+      },
+      {
+        "subject": "math",
+        "description": "Compares the digits after the decimal as whole numbers.",
+        "evidence_ids": [
+          "m2"
+        ],
+        "status": "seen once, watching"
+      }
+    ],
+    "policy": "Only the analysis step may append dated session_log entries. Teacher-reviewed or validated observations inform later practice; diagnoses and IEP settings remain unchanged."
+  },
+  "next_session": {
+    "reading_focus": "Compare the sounds in ar and or, then blend park, farm, and fork.",
+    "writing_focus": "Use the student's own spoken ideas to build an outline; the student writes and revises the final sentences.",
+    "math_focus": [
+      {
+        "evidence_id": "m1",
+        "practice": "Subtraction with regrouping"
+      },
+      {
+        "evidence_id": "m2",
+        "practice": "Compare 0.45 and 0.80 on a hundred grid."
+      }
+    ],
+    "adoption": "Proposed practice for teacher review; no automatic accommodation removal."
+  },
+  "adaptation_demo": {
+    "shared_objective": "Explain how to find a missing quantity after taking some objects away.",
+    "instruction_format": "Garden quantities represented with base-ten blocks",
+    "difficulty": "Same two-digit subtraction with concrete place-value modeling",
+    "scaffolding": "Calculator and worked first step in support mode; adult schedules separate regrouping stretch practice",
+    "feedback": "Recognize the explanation before checking each place-value exchange",
+    "visual_or_auditory_support": "Place-value mat, blocks, and optional spoken reasoning",
+    "mode": "support"
+  },
+  "session_log_policy": "Profile logs remain empty until the analysis step records dated, reviewable observations."
+}

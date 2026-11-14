@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Environment variables and secrets
+.env*
+!.env.example
+# Accidental files named as credential assignments must never be committed.
+OPENAI_API_KEY=*
+NEXT_PUBLIC_OPENAI_API_KEY=*
+*_API_KEY=*
+*SECRET=*
+*TOKEN=*
+.envrc
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
