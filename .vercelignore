@@ -1,0 +1,15 @@
+.git
+node_modules
+.next
+.env*
+.envrc
+.vercel
+*_API_KEY=*
+*SECRET=*
+*TOKEN=*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json

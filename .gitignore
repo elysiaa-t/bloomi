@@ -55,3 +55,6 @@ NEXT_PUBLIC_OPENAI_API_KEY=*
 *.pfx
 credentials*.json
 secrets*.json
+
+.vercel
+.env*
